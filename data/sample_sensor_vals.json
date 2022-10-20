@@ -1,0 +1,18 @@
+{
+  "N": 72,
+  "P": 71,
+  "K": 73,
+  "moisture": 47,
+  "wind_speed": 100,
+  "temperature": 34,
+  "humidity": 72,
+  "pressure": 70,
+  "light": 45,
+  "rain": 125,
+  "wind_direction": 10,
+  "pump": 1,
+  "earth_x": 234,
+  "earth_y": 98,
+  "earth_z": 123,
+  "altitude": 63
+}
