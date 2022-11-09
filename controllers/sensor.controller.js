@@ -4,6 +4,12 @@ const Sensor = db.sensors;
 
 const Op = db.Sequelize.Op;
 
+exports.store_values_get = async (req, res, next) => {
+  await Sensor.create(req.query).then((data) =>
+    res.status(201).json({ message: "Successfully added sensor values" })
+  );
+};
+
 exports.store_values = async (req, res, next) => {
   await Sensor.create(req.body)
     .then((data) =>
